@@ -13,8 +13,8 @@
         "pattern": [{ "regexp": ".*" }],
         "background": {
           "activeOnStart": true,
-          "beginsPattern": ".*Serving HTTP.*",
-          "endsPattern": ".*"
+          "beginsPattern": ".*",
+          "endsPattern": "^__BLUEBELL_SERVER_STOPPED__$"
         }
       }
     }
