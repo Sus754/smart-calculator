@@ -10,11 +10,10 @@
       "isBackground": true,
       "problemMatcher": {
         "owner": "custom",
-        "pattern": [{ "regexp": ".*" }],
+        "pattern": [{ "regexp": "^__BLUEBELL_NO_PROBLEM__$", "file": 0, "message": 0 }],
         "background": {
           "activeOnStart": true,
-          "beginsPattern": ".*",
-          "endsPattern": "^__BLUEBELL_SERVER_STOPPED__$"
+          "endsPattern": "^Serving HTTP on .* port 8080"
         }
       }
     }
