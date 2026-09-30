@@ -7,10 +7,12 @@ A lightweight, responsive calculator for everyday arithmetic and definite integr
 - Addition, subtraction, multiplication, division, parentheses, and powers.
 - Keyboard input, backspace, clear, and sign toggle.
 - Definite integrals over editable lower and upper bounds.
+- Numerical derivative estimates at a chosen x-value.
+- Sample-based function analysis over an interval, including an approximate range, roots, and local extrema.
 - Integral functions: `x`, numbers, `pi`, `e`, `+`, `-`, `*`, `/`, `^`, and `sin`, `cos`, `tan`, `exp`, `sqrt`, `ln`, `log`, and `abs`.
 - A blue responsive design with rounded calculator buttons.
 
-For integral functions, write multiplication explicitly: use `2*x+1`, not `2x+1`. Trigonometric functions use radians. Definite integrals are numerical approximations calculated with Simpson's rule.
+For calculus functions, write multiplication explicitly: use `2*x+1`, not `2x+1`. Trigonometric functions use radians. Integrals, derivatives, and interval analysis are numerical estimates rather than symbolic proofs.
 
 ## Run locally
 
