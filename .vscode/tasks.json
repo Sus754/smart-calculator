@@ -4,8 +4,8 @@
     {
       "label": "Serve Bluebell calculator",
       "type": "process",
-      "command": "py",
-      "args": ["-m", "http.server", "8080", "--bind", "127.0.0.1"],
+      "command": "powershell",
+      "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder}/.vscode/serve.ps1"],
       "options": { "cwd": "${workspaceFolder}" },
       "isBackground": true,
       "problemMatcher": {
