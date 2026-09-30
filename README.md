@@ -1,0 +1,29 @@
+# Bluebell Smart Calculator
+
+A lightweight, responsive calculator for everyday arithmetic and definite integrals.
+
+## Features
+
+- Addition, subtraction, multiplication, division, parentheses, and powers.
+- Keyboard input, backspace, clear, and sign toggle.
+- Definite integrals over editable lower and upper bounds.
+- Integral functions: `x`, numbers, `pi`, `e`, `+`, `-`, `*`, `/`, `^`, and `sin`, `cos`, `tan`, `exp`, `sqrt`, `ln`, `log`, and `abs`.
+- A blue responsive design with rounded calculator buttons.
+
+For integral functions, write multiplication explicitly: use `2*x+1`, not `2x+1`. Trigonometric functions use radians. Definite integrals are numerical approximations calculated with Simpson's rule.
+
+## Run locally
+
+Open `index.html` in a browser, or start a local server from the project folder:
+
+```sh
+python -m http.server 8080
+```
+
+Then visit <http://localhost:8080>.
+
+In VS Code, choose **Run Bluebell calculator** in the Run and Debug panel. This starts the Python server and opens Chrome with the built-in JavaScript debugger.
+
+## Publish with GitHub Pages
+
+The repository includes a GitHub Actions workflow for deployment. In the repository, open **Settings > Pages > Build and deployment** and select **GitHub Actions**. Push to `main` to trigger deployment. GitHub will show the published URL in the Pages settings and deployment run.
