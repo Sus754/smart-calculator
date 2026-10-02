@@ -15,7 +15,7 @@ A lightweight, responsive calculator for everyday arithmetic and definite integr
 
 For calculus functions, write multiplication explicitly: use `2*x+1`, not `2x+1`. Trigonometric functions use radians. Integrals, derivatives, and interval analysis are numerical estimates rather than symbolic proofs.
 
-Open **Calculus tools** in the calculator header (or press the `f(x)` key) to choose an integral, derivative, or function analysis tool.
+Open **Calculus tools** in the calculator header (or press the `f(x)` key), then choose an integral, derivative, or function analysis tool to open it in a separate dialog window. Close the window with its close button, by clicking the backdrop, or by pressing Escape.
 
 ## Run locally
 
