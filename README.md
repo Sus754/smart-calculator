@@ -9,13 +9,14 @@ A lightweight, responsive calculator for everyday arithmetic and definite integr
 - Definite integrals over editable lower and upper bounds.
 - Numerical derivative estimates at a chosen x-value.
 - Sample-based function analysis over an interval, including an approximate range, roots, and local extrema.
+- A shared function graph that adds each analyzed expression, labels each curve, supports per-curve color selection, and lets you remove curves.
 - A dedicated **Calculus tools** menu that groups integrals, derivatives, and function analysis.
 - Integral functions: `x`, numbers, `pi`, `e`, `+`, `-`, `*`, `/`, `^`, and `sin`, `cos`, `tan`, `exp`, `sqrt`, `ln`, `log`, and `abs`.
 - A blue responsive design with rounded calculator buttons.
 
 For calculus functions, write multiplication explicitly: use `2*x+1`, not `2x+1`. Trigonometric functions use radians. Integrals, derivatives, and interval analysis are numerical estimates rather than symbolic proofs.
 
-Open **Calculus tools** in the calculator header (or press the `f(x)` key), then choose an integral, derivative, or function analysis tool to open it in a separate dialog window. Close the window with its close button, by clicking the backdrop, or by pressing Escape.
+Open **Calculus tools** in the calculator header (or press the `f(x)` key), then choose an integral, derivative, or function analysis tool to open it in a separate dialog window. The function analysis window includes a shared graph: analyze different function expressions to compare multiple named curves, choose each curve’s color in the legend, and remove curves as needed. Close the window with its close button, by clicking the backdrop, or by pressing Escape.
 
 ## Run locally
 

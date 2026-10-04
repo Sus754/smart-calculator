@@ -13,10 +13,10 @@
     *{box-sizing:border-box}body{margin:0;min-width:320px;min-height:100vh;background:radial-gradient(ellipse at 12% 20%,rgba(208,229,255,.58),transparent 36%),radial-gradient(ellipse at 93% 82%,rgba(216,218,255,.45),transparent 32%),#edf5ff}button{font:inherit}
     .page{width:min(1050px,100%);min-height:100vh;margin:auto;padding:36px 48px 25px;display:flex;flex-direction:column}.topbar{display:flex;justify-content:space-between;align-items:center}.brand{display:flex;align-items:center;gap:10px;font-family:Manrope,sans-serif;font-weight:800;font-size:18px;letter-spacing:-.8px}.brand-icon{height:34px;width:34px;border-radius:12px;background:#fff;box-shadow:0 4px 15px #7895c51c;display:grid;place-items:center;color:#6690e9;font-size:20px}.top-label{font-size:11px;color:#90a1b7;letter-spacing:.12em;text-transform:uppercase;font-weight:700}.main{flex:1;display:grid;grid-template-columns:1fr 370px;gap:70px;align-items:center;padding:44px 12px}.intro{align-self:center;padding-bottom:9px}.eyebrow{display:flex;align-items:center;gap:9px;color:#7190bb;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}.eyebrow i{width:8px;height:8px;background:#83a9f3;border-radius:50%;box-shadow:0 0 0 4px #dfebff}.intro h1{font-family:Manrope,sans-serif;font-size:53px;line-height:1.12;letter-spacing:-3px;font-weight:600;margin:23px 0 15px;color:#2b3b55}.intro h1 span{color:#7399e7}.intro p{font-size:15px;color:#899ab1;line-height:1.8;max-width:342px;margin:0}.mode-tags{display:flex;gap:9px;margin-top:27px}.tag{border:1px solid #dee9f8;background:#f6f9ff;border-radius:20px;padding:8px 13px;color:#7185a3;font-size:11px;font-weight:600}.tag span{color:#7094dc;margin-right:5px}.calculator{width:100%;border-radius:27px;background:#fff;padding:22px;box-shadow:0 24px 64px #6485b71a,0 5px 14px #658bb10e;border:1px solid #fff}.calc-head{display:flex;align-items:center;justify-content:space-between;padding:0 3px 17px;color:#96a5b9;font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}.status{display:flex;align-items:center;gap:7px}.status i{width:6px;height:6px;background:#8fcbb0;border-radius:50%}.display{height:104px;border-radius:17px;background:#f6f8fc;padding:15px 18px;display:flex;flex-direction:column;align-items:flex-end;justify-content:center;overflow:hidden}.expression{width:100%;height:22px;text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#98a6ba;font-family:'DM Mono',monospace;font-size:13px}.result{font-family:'DM Mono',monospace;font-size:37px;font-weight:500;letter-spacing:-1.5px;color:#334158;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.keys{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:16px}.key{height:51px;border:0;border-radius:15px;cursor:pointer;background:#f3f6fb;color:#52637c;font-family:'DM Mono',monospace;font-size:17px;transition:transform .13s,box-shadow .13s,background .13s;box-shadow:0 2px 4px #506b9310}.key:hover{background:#e9effa;transform:translateY(-2px);box-shadow:0 5px 10px #506b9317}.key:active{transform:translateY(0);box-shadow:none}.key.function{background:#f0f4fc;color:#7c96bf}.key.operator{background:#edf3ff;color:#638be1;font-size:21px}.key.integral{background:#f0f4fc;color:#6e91cd;font-size:19px}.key.clear{background:#fcf0f1;color:#da8791;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:700}.key.equals{grid-column:span 2;background:linear-gradient(135deg,#7599ed,#6385df);color:#fff;font-size:21px;box-shadow:0 6px 13px #7392e044}.key.equals:hover{background:linear-gradient(135deg,#668ce8,#5679d6)}
     .calculus-dialog{width:min(480px,calc(100vw - 32px));max-height:min(84vh,720px);margin:auto;padding:0;border:1px solid #fff;border-radius:23px;background:#fff;color:var(--ink);box-shadow:0 24px 70px #30446d40;overflow:hidden}.calculus-dialog::backdrop{background:rgba(39,55,82,.48);backdrop-filter:blur(3px)}.dialog-header{display:flex;justify-content:space-between;align-items:center;padding:15px 20px;border-bottom:1px solid var(--border)}.dialog-header h2{font-size:13px;margin:0;color:#526783}.dialog-close{width:32px;height:32px;border:0;border-radius:9px;background:#f2f5fa;color:#8292a9;font-size:20px;cursor:pointer}.dialog-close:hover{background:#e9effa;color:#526783}.dialog-content{padding:20px;overflow-y:auto;max-height:calc(84vh - 64px)}.panel-title{color:#8294ad;font-size:10px;text-transform:uppercase;letter-spacing:.11em;font-weight:700;margin-bottom:11px}.integral-inputs{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:8px}.integral-inputs label{display:block;font-size:10px;color:#98a6ba;margin-bottom:5px}.integral-inputs input{width:100%;height:37px;border:1px solid #e6ecf5;border-radius:9px;padding:0 9px;background:white;color:#40516b;font:13px 'DM Mono',monospace;outline:none}.integral-inputs input:focus{border-color:#9ab5ed;box-shadow:0 0 0 3px #eaf0fe}.integral-row{display:flex;align-items:center;gap:10px;margin-top:10px}.integral-row .symbol{font-size:22px;color:#7796d2}.eval-btn{flex:1;border:0;border-radius:10px;height:37px;background:#eaf0fd;color:#6589d4;font-weight:700;font-size:12px;cursor:pointer}.eval-btn:hover{background:#dfe9fc}.integral-help{font-size:10px;color:#a0adc0;margin-top:9px}.error{color:#d77f88!important}.history{margin-top:16px;min-height:34px;display:flex;align-items:center;justify-content:space-between;gap:12px;border-top:1px solid #f0f2f7;padding:13px 3px 0;color:#a3afbf;font-size:11px}.history-value{font-family:'DM Mono',monospace;color:#8094b2;text-align:right}.footer{display:flex;justify-content:space-between;align-items:center;color:#9aabc0;font-size:11px;padding:0 2px}.footer b{font-weight:600;color:#8097b6}.shortcut{font-family:'DM Mono',monospace;font-size:10px;border:1px solid #dfe8f4;border-radius:6px;padding:4px 7px;margin-left:6px;color:#8ca1bf}
-    .calculus-view[hidden]{display:none}.calculus-view .panel-title{margin-bottom:11px}.derivative-inputs{grid-template-columns:1.5fr 1fr}.analysis-results{margin-top:10px;color:#7486a0;font-size:11px;line-height:1.7;white-space:pre-line}.analysis-results:empty{display:none}.analysis-results strong{color:#526783}
+    .calculus-view[hidden]{display:none}.calculus-view .panel-title{margin-bottom:11px}.derivative-inputs{grid-template-columns:1.5fr 1fr}.analysis-results{margin-top:10px;color:#7486a0;font-size:11px;line-height:1.7;white-space:pre-line}.analysis-results:empty{display:none}.analysis-results strong{color:#526783}.graph-panel{margin-top:15px;padding:12px;border:1px solid #e7edf7;border-radius:15px;background:#fafbfe}.graph-panel h3{margin:0 0 8px;color:#8294ad;font-size:10px;text-transform:uppercase;letter-spacing:.1em}.graph-canvas-wrap{height:230px;position:relative}.function-graph{display:block;width:100%;height:100%}.graph-legend{display:flex;flex-wrap:wrap;gap:7px;margin-top:8px}.graph-legend:empty{display:none}.graph-legend-item{display:flex;align-items:center;gap:6px;border:1px solid #e7edf7;border-radius:9px;padding:5px 7px;background:white;color:#526783;font-size:10px}.graph-legend-item input[type=color]{width:20px;height:20px;border:0;padding:0;background:transparent;cursor:pointer}.graph-remove{border:0;background:transparent;color:#91a2ba;cursor:pointer;font-size:14px;line-height:1}.graph-empty{position:absolute;inset:0;display:grid;place-items:center;color:#a0adc0;font-size:11px;pointer-events:none}.graph-empty[hidden]{display:none}
     .calc-menu{position:relative}.calc-menu-trigger{display:flex;align-items:center;gap:6px;padding:8px 10px;border:1px solid #e5ecf7;border-radius:11px;background:#f7f9fd;color:#6f86aa;font-size:11px;font-weight:700;cursor:pointer}.calc-menu-trigger:hover,.calc-menu-trigger[aria-expanded="true"]{background:#edf3ff;color:#5d82d3}.calc-menu-list{position:absolute;top:calc(100% + 8px);left:0;z-index:5;width:205px;padding:6px;border:1px solid #e8eef7;border-radius:14px;background:#fff;box-shadow:0 14px 34px #506b932b;display:grid;gap:3px}.calc-menu-list[hidden]{display:none}.calc-menu-list button{display:grid;gap:3px;width:100%;padding:10px;border:0;border-radius:9px;text-align:left;background:transparent;color:#40516b;cursor:pointer}.calc-menu-list button:hover,.calc-menu-list button:focus-visible{outline:none;background:#f0f5ff}.calc-menu-list button span{font-size:12px;font-weight:700}.calc-menu-list button small{font-size:10px;color:#91a2ba}.calc-head{position:relative}.calculus-view[hidden]{display:none}
     @media(max-width:760px){.page{padding:23px 22px 19px}.main{grid-template-columns:1fr;gap:27px;padding:40px 0 36px;max-width:410px;width:100%;margin:0 auto}.intro h1{font-size:43px;margin:15px 0 10px}.intro p{font-size:13px;max-width:360px}.mode-tags{margin-top:17px}.calculator{padding:18px;border-radius:23px}.key{height:49px}.footer{font-size:10px}}
-    @media(max-width:380px){.calc-head{gap:5px}.calc-head>.status{font-size:0}.calc-head>.status i{width:7px;height:7px}.calc-menu-trigger{padding:7px 8px}.page{padding-inline:15px}.main{padding-top:32px}.calculator{padding:15px}.keys{gap:8px}.key{height:46px;border-radius:13px}.result{font-size:32px}.calculus-dialog{width:calc(100vw - 20px)}.dialog-content{padding:15px}}
+    @media(max-width:380px){.calc-head{gap:5px}.calc-head>.status{font-size:0}.calc-head>.status i{width:7px;height:7px}.calc-menu-trigger{padding:7px 8px}.page{padding-inline:15px}.main{padding-top:32px}.calculator{padding:15px}.keys{gap:8px}.key{height:46px;border-radius:13px}.result{font-size:32px}.calculus-dialog{width:calc(100vw - 20px)}.dialog-content{padding:15px}.graph-canvas-wrap{height:195px}}
     @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
   </style>
 </head>
@@ -68,6 +68,11 @@
             <div class="integral-row"><span class="symbol">f(x)</span><button class="eval-btn" id="analyze" type="button">Analyze interval</button></div>
             <div class="integral-help">Sampled estimates: range, roots, and local extrema. Results are approximate.</div>
             <div class="analysis-results" id="analysis-results" aria-live="polite"></div>
+            <section class="graph-panel" aria-labelledby="graph-title">
+              <h3 id="graph-title">Function graph</h3>
+              <div class="graph-canvas-wrap"><canvas class="function-graph" id="function-graph" role="img" aria-label="Graph of analyzed functions"></canvas><div class="graph-empty" id="graph-empty">Analyze a function to add it to the graph.</div></div>
+              <div class="graph-legend" id="graph-legend" aria-label="Plotted functions"></div>
+            </section>
           </section>
           </div>
         </dialog>
@@ -234,6 +239,105 @@
         return (-fn(x + 2 * step) + 8 * fn(x + step) - 8 * fn(x - step) + fn(x - 2 * step)) / (12 * step);
       }
 
+      const plottedFunctions = [];
+      const graphCanvas = document.getElementById('function-graph');
+      const graphEmpty = document.getElementById('graph-empty');
+      const graphLegend = document.getElementById('graph-legend');
+      const graphPalette = ['#658ee8', '#e47d8b', '#42a58a', '#a37bd2', '#e5a343', '#4b9bc2', '#cb6dba', '#81934a'];
+
+      function drawFunctionGraph() {
+        if (!graphCanvas) return;
+        const bounds = graphCanvas.getBoundingClientRect();
+        if (!bounds.width || !bounds.height) return;
+        const ratio = window.devicePixelRatio || 1;
+        graphCanvas.width = Math.round(bounds.width * ratio);
+        graphCanvas.height = Math.round(bounds.height * ratio);
+        const context = graphCanvas.getContext('2d');
+        context.setTransform(ratio, 0, 0, ratio, 0, 0);
+        const width = bounds.width, height = bounds.height;
+        const padding = { left: 43, right: 12, top: 14, bottom: 29 };
+        const plotWidth = width - padding.left - padding.right;
+        const plotHeight = height - padding.top - padding.bottom;
+        context.clearRect(0, 0, width, height);
+        graphEmpty.hidden = plottedFunctions.length > 0;
+        graphLegend.replaceChildren();
+        if (!plottedFunctions.length) return;
+
+        let xMin = Math.min(...plottedFunctions.map(item => item.lower));
+        let xMax = Math.max(...plottedFunctions.map(item => item.upper));
+        if (xMin === xMax) { xMin -= 1; xMax += 1; }
+        const samples = plottedFunctions.map(item => {
+          const count = Math.max(240, Math.min(1200, Math.ceil(plotWidth * 2)));
+          const step = (item.upper - item.lower) / count;
+          const points = [];
+          let min = Infinity, max = -Infinity;
+          for (let i = 0; i <= count; i++) {
+            const x = item.lower + i * step;
+            let y = null;
+            try { y = item.fn(x); } catch (_) { /* Leave gaps where the function is undefined. */ }
+            if (y !== null && Number.isFinite(y)) { min = Math.min(min, y); max = Math.max(max, y); }
+            points.push({ x, y });
+          }
+          return { item, points, min, max };
+        });
+        let yMin = Math.min(...samples.map(sample => sample.min));
+        let yMax = Math.max(...samples.map(sample => sample.max));
+        if (!Number.isFinite(yMin) || !Number.isFinite(yMax)) { yMin = -1; yMax = 1; }
+        if (yMin === yMax) { const paddingY = Math.max(1, Math.abs(yMin) * 0.1); yMin -= paddingY; yMax += paddingY; }
+        const yPadding = (yMax - yMin) * 0.08;
+        yMin -= yPadding; yMax += yPadding;
+        const xPixel = x => padding.left + (x - xMin) / (xMax - xMin) * plotWidth;
+        const yPixel = y => padding.top + (yMax - y) / (yMax - yMin) * plotHeight;
+
+        context.font = '10px "DM Mono", monospace';
+        context.textBaseline = 'middle';
+        context.strokeStyle = '#e7edf5';
+        context.fillStyle = '#91a2ba';
+        context.lineWidth = 1;
+        for (let i = 0; i <= 4; i++) {
+          const fraction = i / 4;
+          const y = padding.top + plotHeight * fraction;
+          const x = padding.left + plotWidth * fraction;
+          const yValue = yMax - fraction * (yMax - yMin);
+          const xValue = xMin + fraction * (xMax - xMin);
+          context.beginPath(); context.moveTo(padding.left, y); context.lineTo(width - padding.right, y); context.stroke();
+          context.beginPath(); context.moveTo(x, padding.top); context.lineTo(x, height - padding.bottom); context.stroke();
+          context.textAlign = 'right'; context.fillText(pretty(yValue), padding.left - 6, y);
+          context.textAlign = 'center'; context.fillText(pretty(xValue), x, height - 12);
+        }
+        if (xMin <= 0 && xMax >= 0) { context.strokeStyle = '#c6d2e1'; context.beginPath(); context.moveTo(xPixel(0), padding.top); context.lineTo(xPixel(0), height - padding.bottom); context.stroke(); }
+        if (yMin <= 0 && yMax >= 0) { context.strokeStyle = '#c6d2e1'; context.beginPath(); context.moveTo(padding.left, yPixel(0)); context.lineTo(width - padding.right, yPixel(0)); context.stroke(); }
+
+        samples.forEach(({ item, points }) => {
+          context.beginPath(); context.strokeStyle = item.color; context.lineWidth = 2.5; context.lineJoin = 'round'; context.lineCap = 'round';
+          let drawing = false;
+          let previousY = null;
+          for (const point of points) {
+            if (point.y === null || point.y < yMin - (yMax - yMin) || point.y > yMax + (yMax - yMin)) { drawing = false; previousY = null; continue; }
+            const px = xPixel(point.x), py = yPixel(point.y);
+            if (previousY !== null && Math.abs(py - previousY) > plotHeight * 0.75) drawing = false;
+            if (!drawing) { context.moveTo(px, py); drawing = true; } else context.lineTo(px, py);
+            previousY = py;
+          }
+          context.stroke();
+          const legendItem = document.createElement('label');
+          legendItem.className = 'graph-legend-item';
+          const colorInput = document.createElement('input');
+          colorInput.type = 'color'; colorInput.value = item.color; colorInput.setAttribute('aria-label', `Color for ${item.name}`);
+          colorInput.addEventListener('input', () => { item.color = colorInput.value; drawFunctionGraph(); });
+          const name = document.createElement('span'); name.textContent = item.name;
+          const removeButton = document.createElement('button');
+          removeButton.className = 'graph-remove'; removeButton.type = 'button'; removeButton.textContent = '×'; removeButton.setAttribute('aria-label', `Remove ${item.name} from graph`);
+          removeButton.addEventListener('click', () => { plottedFunctions.splice(plottedFunctions.indexOf(item), 1); drawFunctionGraph(); });
+          legendItem.append(colorInput, name, removeButton);
+          graphLegend.append(legendItem);
+        });
+      }
+
+      const graphResizeObserver = new ResizeObserver(drawFunctionGraph);
+      graphResizeObserver.observe(graphCanvas);
+      window.addEventListener('resize', drawFunctionGraph);
+
       function integrate() {
         try {
           const fn = compileFunction(document.getElementById('fn').value);
@@ -319,6 +423,12 @@ Local maxima: ${fmtExtrema(maxima)}
 Local minima: ${fmtExtrema(minima)}
 Sample-based estimates; not a symbolic proof.`;
           output.textContent = summary;
+          const name = source.trim() || 'f(x)';
+          const existing = plottedFunctions.find(item => item.name === name);
+          const graphEntry = existing || { name, color: graphPalette[plottedFunctions.length % graphPalette.length] };
+          graphEntry.fn = fn; graphEntry.lower = lower; graphEntry.upper = upper;
+          if (!existing) plottedFunctions.push(graphEntry);
+          drawFunctionGraph();
           showExpression(`Analysis on [${pretty(lower)}, ${pretty(upper)}]`);
           setResult(`${pretty(minPoint.y)} to ${pretty(maxPoint.y)}`);
           showHistory('function analysis', `${source}: range ${pretty(minPoint.y)} to ${pretty(maxPoint.y)}`);
