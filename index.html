@@ -11,9 +11,9 @@
   <style>
     :root{font-family:'DM Sans',sans-serif;color:#26344b;background:#edf5ff;font-synthesis:none;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-optical-sizing:auto;--ink:#26344b;--muted:#91a2ba;--blue:#658ee8;--border:#edf1f7}
     *{box-sizing:border-box}body{margin:0;min-width:320px;min-height:100vh;background:radial-gradient(ellipse at 12% 20%,rgba(208,229,255,.58),transparent 36%),radial-gradient(ellipse at 93% 82%,rgba(216,218,255,.45),transparent 32%),#edf5ff}button{font:inherit}
-    .page{width:min(1050px,100%);min-height:100vh;margin:auto;padding:36px 48px 25px;display:flex;flex-direction:column}.topbar{display:flex;justify-content:space-between;align-items:center}.brand{display:flex;align-items:center;gap:10px;font-family:Manrope,sans-serif;font-weight:800;font-size:18px;letter-spacing:-.8px}.brand-icon{height:34px;width:34px;border-radius:12px;background:#fff;box-shadow:0 4px 15px #7895c51c;display:grid;place-items:center;color:#6690e9;font-size:20px}.top-label{font-size:11px;color:#90a1b7;letter-spacing:.12em;text-transform:uppercase;font-weight:700}.main{flex:1;display:grid;grid-template-columns:1fr 370px;gap:70px;align-items:center;padding:44px 12px}.intro{align-self:center;padding-bottom:9px}.eyebrow{display:flex;align-items:center;gap:9px;color:#7190bb;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}.eyebrow i{width:8px;height:8px;background:#83a9f3;border-radius:50%;box-shadow:0 0 0 4px #dfebff}.intro h1{font-family:Manrope,sans-serif;font-size:53px;line-height:1.12;letter-spacing:-3px;font-weight:600;margin:23px 0 15px;color:#2b3b55}.intro h1 span{color:#7399e7}.intro p{font-size:15px;color:#899ab1;line-height:1.8;max-width:342px;margin:0}.mode-tags{display:flex;gap:9px;margin-top:27px}.tag{border:1px solid #dee9f8;background:#f6f9ff;border-radius:20px;padding:8px 13px;color:#7185a3;font-size:11px;font-weight:600}.tag span{color:#7094dc;margin-right:5px}.calculator{width:100%;border-radius:27px;background:#fff;padding:22px;box-shadow:0 24px 64px #6485b71a,0 5px 14px #658bb10e;border:1px solid #fff}.calc-head{display:flex;align-items:center;justify-content:space-between;padding:0 3px 17px;color:#96a5b9;font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}.status{display:flex;align-items:center;gap:7px}.status i{width:6px;height:6px;background:#8fcbb0;border-radius:50%}.display{height:104px;border-radius:17px;background:#f6f8fc;padding:15px 18px;display:flex;flex-direction:column;align-items:flex-end;justify-content:center;overflow:hidden}.expression{width:100%;height:22px;text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#98a6ba;font-family:'DM Mono',monospace;font-size:13px}.result{font-family:'DM Mono',monospace;font-size:37px;font-weight:500;letter-spacing:-1.5px;color:#334158;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.keys{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:16px}.key{height:51px;border:0;border-radius:15px;cursor:pointer;background:#f3f6fb;color:#52637c;font-family:'DM Mono',monospace;font-size:17px;transition:transform .13s,box-shadow .13s,background .13s;box-shadow:0 2px 4px #506b9310}.key:hover{background:#e9effa;transform:translateY(-2px);box-shadow:0 5px 10px #506b9317}.key:active{transform:translateY(0);box-shadow:none}.key.function{background:#f0f4fc;color:#7c96bf}.key.operator{background:#edf3ff;color:#638be1;font-size:21px}.key.integral{background:#f0f4fc;color:#6e91cd;font-size:19px}.key.clear{background:#fcf0f1;color:#da8791;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:700}.key.equals{grid-column:span 2;background:linear-gradient(135deg,#7599ed,#6385df);color:#fff;font-size:21px;box-shadow:0 6px 13px #7392e044}.key.equals:hover{background:linear-gradient(135deg,#668ce8,#5679d6)}
+    .page{width:min(1050px,100%);min-height:100vh;margin:auto;padding:36px 48px 25px;display:flex;flex-direction:column}.topbar{display:flex;justify-content:space-between;align-items:center}.brand{display:flex;align-items:center;gap:10px;font-family:Manrope,sans-serif;font-weight:800;font-size:18px;letter-spacing:-.8px}.brand-icon{height:34px;width:34px;border-radius:12px;background:#fff;box-shadow:0 4px 15px #7895c51c;display:grid;place-items:center;color:#6690e9;font-size:20px}.top-label{font-size:11px;color:#90a1b7;letter-spacing:.12em;text-transform:uppercase;font-weight:700}.main{flex:1;display:grid;grid-template-columns:1fr 370px;gap:70px;align-items:start;padding:44px 12px}.intro{align-self:center;padding-bottom:9px}.calculator-sidebar{display:grid;align-content:start;gap:14px;min-width:0}.eyebrow{display:flex;align-items:center;gap:9px;color:#7190bb;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}.eyebrow i{width:8px;height:8px;background:#83a9f3;border-radius:50%;box-shadow:0 0 0 4px #dfebff}.intro h1{font-family:Manrope,sans-serif;font-size:53px;line-height:1.12;letter-spacing:-3px;font-weight:600;margin:23px 0 15px;color:#2b3b55}.intro h1 span{color:#7399e7}.intro p{font-size:15px;color:#899ab1;line-height:1.8;max-width:342px;margin:0}.mode-tags{display:flex;gap:9px;margin-top:27px}.tag{border:1px solid #dee9f8;background:#f6f9ff;border-radius:20px;padding:8px 13px;color:#7185a3;font-size:11px;font-weight:600}.tag span{color:#7094dc;margin-right:5px}.calculator{width:100%;border-radius:27px;background:#fff;padding:22px;box-shadow:0 24px 64px #6485b71a,0 5px 14px #658bb10e;border:1px solid #fff}.calc-head{display:flex;align-items:center;justify-content:space-between;padding:0 3px 17px;color:#96a5b9;font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}.status{display:flex;align-items:center;gap:7px}.status i{width:6px;height:6px;background:#8fcbb0;border-radius:50%}.display{height:104px;border-radius:17px;background:#f6f8fc;padding:15px 18px;display:flex;flex-direction:column;align-items:flex-end;justify-content:center;overflow:hidden}.expression{width:100%;height:22px;text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#98a6ba;font-family:'DM Mono',monospace;font-size:13px}.result{font-family:'DM Mono',monospace;font-size:37px;font-weight:500;letter-spacing:-1.5px;color:#334158;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.keys{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:16px}.key{height:51px;border:0;border-radius:15px;cursor:pointer;background:#f3f6fb;color:#52637c;font-family:'DM Mono',monospace;font-size:17px;transition:transform .13s,box-shadow .13s,background .13s;box-shadow:0 2px 4px #506b9310}.key:hover{background:#e9effa;transform:translateY(-2px);box-shadow:0 5px 10px #506b9317}.key:active{transform:translateY(0);box-shadow:none}.key.function{background:#f0f4fc;color:#7c96bf}.key.operator{background:#edf3ff;color:#638be1;font-size:21px}.key.integral{background:#f0f4fc;color:#6e91cd;font-size:19px}.key.clear{background:#fcf0f1;color:#da8791;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:700}.key.equals{grid-column:span 2;background:linear-gradient(135deg,#7599ed,#6385df);color:#fff;font-size:21px;box-shadow:0 6px 13px #7392e044}.key.equals:hover{background:linear-gradient(135deg,#668ce8,#5679d6)}
     .calculus-dialog{width:min(480px,calc(100vw - 32px));max-height:min(84vh,720px);margin:auto;padding:0;border:1px solid #fff;border-radius:23px;background:#fff;color:var(--ink);box-shadow:0 24px 70px #30446d40;overflow:hidden}.calculus-dialog::backdrop{background:rgba(39,55,82,.48);backdrop-filter:blur(3px)}.dialog-header{display:flex;justify-content:space-between;align-items:center;padding:15px 20px;border-bottom:1px solid var(--border)}.dialog-header h2{font-size:13px;margin:0;color:#526783}.dialog-close{width:32px;height:32px;border:0;border-radius:9px;background:#f2f5fa;color:#8292a9;font-size:20px;cursor:pointer}.dialog-close:hover{background:#e9effa;color:#526783}.dialog-content{padding:20px;overflow-y:auto;max-height:calc(84vh - 64px)}.panel-title{color:#8294ad;font-size:10px;text-transform:uppercase;letter-spacing:.11em;font-weight:700;margin-bottom:11px}.integral-inputs{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:8px}.integral-inputs label{display:block;font-size:10px;color:#98a6ba;margin-bottom:5px}.integral-inputs input{width:100%;height:37px;border:1px solid #e6ecf5;border-radius:9px;padding:0 9px;background:white;color:#40516b;font:13px 'DM Mono',monospace;outline:none}.integral-inputs input:focus{border-color:#9ab5ed;box-shadow:0 0 0 3px #eaf0fe}.integral-row{display:flex;align-items:center;gap:10px;margin-top:10px}.integral-row .symbol{font-size:22px;color:#7796d2}.eval-btn{flex:1;border:0;border-radius:10px;height:37px;background:#eaf0fd;color:#6589d4;font-weight:700;font-size:12px;cursor:pointer}.eval-btn:hover{background:#dfe9fc}.integral-help{font-size:10px;color:#a0adc0;margin-top:9px}.error{color:#d77f88!important}.history{margin-top:16px;min-height:34px;display:flex;align-items:center;justify-content:space-between;gap:12px;border-top:1px solid #f0f2f7;padding:13px 3px 0;color:#a3afbf;font-size:11px}.history-value{font-family:'DM Mono',monospace;color:#8094b2;text-align:right}.footer{display:flex;justify-content:space-between;align-items:center;color:#9aabc0;font-size:11px;padding:0 2px}.footer b{font-weight:600;color:#8097b6}.shortcut{font-family:'DM Mono',monospace;font-size:10px;border:1px solid #dfe8f4;border-radius:6px;padding:4px 7px;margin-left:6px;color:#8ca1bf}
-    .calculus-view[hidden]{display:none}.calculus-view .panel-title{margin-bottom:11px}.derivative-inputs{grid-template-columns:1.5fr 1fr}.analysis-results{margin-top:10px;color:#7486a0;font-size:11px;line-height:1.7;white-space:pre-line}.analysis-results:empty{display:none}.analysis-results strong{color:#526783}.graph-panel{margin-top:15px;padding:12px;border:1px solid #e7edf7;border-radius:15px;background:#fafbfe}.graph-panel h3{margin:0 0 8px;color:#8294ad;font-size:10px;text-transform:uppercase;letter-spacing:.1em}.graph-canvas-wrap{height:230px;position:relative}.function-graph{display:block;width:100%;height:100%}.graph-legend{display:flex;flex-wrap:wrap;gap:7px;margin-top:8px}.graph-legend:empty{display:none}.graph-legend-item{display:flex;align-items:center;gap:6px;border:1px solid #e7edf7;border-radius:9px;padding:5px 7px;background:white;color:#526783;font-size:10px}.graph-legend-item input[type=color]{width:20px;height:20px;border:0;padding:0;background:transparent;cursor:pointer}.graph-remove{border:0;background:transparent;color:#91a2ba;cursor:pointer;font-size:14px;line-height:1}.graph-empty{position:absolute;inset:0;display:grid;place-items:center;color:#a0adc0;font-size:11px;pointer-events:none}.graph-empty[hidden]{display:none}
+    .calculus-view[hidden]{display:none}.calculus-view .panel-title{margin-bottom:11px}.derivative-inputs{grid-template-columns:1.5fr 1fr}.analysis-results{margin-top:10px;color:#7486a0;font-size:11px;line-height:1.7;white-space:pre-line}.analysis-results:empty{display:none}.analysis-results strong{color:#526783}.derivative-answer{display:grid;gap:5px;margin-top:16px;padding:18px 20px;border:1px solid #dce8fb;border-radius:16px;background:linear-gradient(135deg,#f2f7ff,#f9fbff);min-height:104px}.derivative-answer-label{color:#8294ad;font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}.derivative-answer-value{color:#426fc6;font-family:'DM Mono',monospace;font-size:clamp(28px,8vw,38px);font-weight:500;line-height:1.2;overflow-wrap:anywhere}.derivative-answer-detail{color:#8192aa;font-size:11px}.derivative-answer-value.error{color:#d77f88}.graph-panel{margin:0;padding:14px;border:1px solid #e7edf7;border-radius:18px;background:#fff;box-shadow:0 12px 32px #6485b714}.graph-panel h3{margin:0 0 8px;color:#8294ad;font-size:10px;text-transform:uppercase;letter-spacing:.1em}.graph-canvas-wrap{height:230px;position:relative}.function-graph{display:block;width:100%;height:100%}.graph-legend{display:flex;flex-wrap:wrap;gap:7px;margin-top:8px}.graph-legend:empty{display:none}.graph-legend-item{display:flex;align-items:center;gap:6px;border:1px solid #e7edf7;border-radius:9px;padding:5px 7px;background:white;color:#526783;font-size:10px}.graph-legend-item input[type=color]{width:20px;height:20px;border:0;padding:0;background:transparent;cursor:pointer}.graph-remove{border:0;background:transparent;color:#91a2ba;cursor:pointer;font-size:14px;line-height:1}.graph-empty{position:absolute;inset:0;display:grid;place-items:center;color:#a0adc0;font-size:11px;text-align:center;padding:15px;pointer-events:none}.graph-empty[hidden]{display:none}
     .calc-menu{position:relative}.calc-menu-trigger{display:flex;align-items:center;gap:6px;padding:8px 10px;border:1px solid #e5ecf7;border-radius:11px;background:#f7f9fd;color:#6f86aa;font-size:11px;font-weight:700;cursor:pointer}.calc-menu-trigger:hover,.calc-menu-trigger[aria-expanded="true"]{background:#edf3ff;color:#5d82d3}.calc-menu-list{position:absolute;top:calc(100% + 8px);left:0;z-index:5;width:205px;padding:6px;border:1px solid #e8eef7;border-radius:14px;background:#fff;box-shadow:0 14px 34px #506b932b;display:grid;gap:3px}.calc-menu-list[hidden]{display:none}.calc-menu-list button{display:grid;gap:3px;width:100%;padding:10px;border:0;border-radius:9px;text-align:left;background:transparent;color:#40516b;cursor:pointer}.calc-menu-list button:hover,.calc-menu-list button:focus-visible{outline:none;background:#f0f5ff}.calc-menu-list button span{font-size:12px;font-weight:700}.calc-menu-list button small{font-size:10px;color:#91a2ba}.calc-head{position:relative}.calculus-view[hidden]{display:none}
     @media(max-width:760px){.page{padding:23px 22px 19px}.main{grid-template-columns:1fr;gap:27px;padding:40px 0 36px;max-width:410px;width:100%;margin:0 auto}.intro h1{font-size:43px;margin:15px 0 10px}.intro p{font-size:13px;max-width:360px}.mode-tags{margin-top:17px}.calculator{padding:18px;border-radius:23px}.key{height:49px}.footer{font-size:10px}}
     @media(max-width:380px){.calc-head{gap:5px}.calc-head>.status{font-size:0}.calc-head>.status i{width:7px;height:7px}.calc-menu-trigger{padding:7px 8px}.page{padding-inline:15px}.main{padding-top:32px}.calculator{padding:15px}.keys{gap:8px}.key{height:46px;border-radius:13px}.result{font-size:32px}.calculus-dialog{width:calc(100vw - 20px)}.dialog-content{padding:15px}.graph-canvas-wrap{height:195px}}
@@ -25,6 +25,7 @@
     <header class="topbar"><div class="brand"><span class="brand-icon">∫</span>bluebell</div><div class="top-label">a little math companion</div></header>
     <main class="main">
       <section class="intro" aria-labelledby="title"><div class="eyebrow"><i></i> your pocket-sized math buddy</div><h1 id="title">Numbers,<br>meet <span>calculus.</span></h1><p>Everyday calculations, derivatives, and function analysis, wrapped in a little blue calm.</p><div class="mode-tags"><span class="tag"><span>+</span> everyday math</span><span class="tag"><span>∫</span> integrals</span><span class="tag"><span>d/dx</span> derivatives</span></div></section>
+      <aside class="calculator-sidebar" aria-label="Calculator and function graph">
       <section class="calculator" aria-label="Calculator">
         <div class="calc-head">
           <span>calculator</span>
@@ -32,6 +33,7 @@
             <button class="calc-menu-trigger" id="calc-menu-toggle" type="button" aria-haspopup="menu" aria-expanded="false">Calculus tools <span aria-hidden="true">&#9662;</span></button>
             <div class="calc-menu-list" id="calc-menu-list" role="menu" aria-label="Calculus tools" hidden>
               <button type="button" role="menuitem" data-calculus-view="integral-view"><span>Definite integral</span><small>Find signed area</small></button>
+              <button type="button" role="menuitem" data-calculus-view="antiderivative-view"><span>Indefinite integral</span><small>Find an antiderivative</small></button>
               <button type="button" role="menuitem" data-calculus-view="derivative-view"><span>Derivative</span><small>Estimate f'(x)</small></button>
               <button type="button" role="menuitem" data-calculus-view="analysis-view"><span>Function analysis</span><small>Explore an interval</small></button>
             </div>
@@ -56,11 +58,19 @@
             <div class="integral-row"><span class="symbol">∫</span><button class="eval-btn" id="integrate" type="button">Calculate area</button></div>
             <div class="integral-help">Try: x^2, sin(x), exp(x), 2*x+1. Trig functions use radians.</div>
           </section>
+          <section class="calculus-view" id="antiderivative-view" hidden>
+            <div class="panel-title">Indefinite integral · ∫ f(x) dx</div>
+            <div class="integral-inputs derivative-inputs"><div><label for="antiderivative-fn">Function f(x)</label><input id="antiderivative-fn" value="x^2" aria-label="Function to integrate"></div></div>
+            <div class="integral-row"><span class="symbol">∫</span><button class="eval-btn" id="find-antiderivative" type="button">Find antiderivative</button></div>
+            <div class="integral-help">Sums are integrated term by term. Try sin(x)+3x, tan(x)-x^2, or exp(x)+2*x.</div>
+            <div class="analysis-results" id="antiderivative-result" aria-live="polite"></div>
+          </section>
           <section class="calculus-view" id="derivative-view" hidden>
             <div class="panel-title">Derivative · estimate f′(x)</div>
             <div class="integral-inputs derivative-inputs"><div><label for="derivative-fn">Function f(x)</label><input id="derivative-fn" value="x^2" aria-label="Function to differentiate"></div><div><label for="derivative-at">At x =</label><input id="derivative-at" value="2" inputmode="decimal" aria-label="Point to evaluate derivative"></div></div>
             <div class="integral-row"><span class="symbol">d/dx</span><button class="eval-btn" id="differentiate" type="button">Estimate derivative</button></div>
-            <div class="integral-help">Uses a five-point numerical estimate around the chosen x.</div>
+            <div class="derivative-answer" role="status" aria-live="polite"><span class="derivative-answer-label" id="derivative-answer-label">Estimated derivative</span><strong class="derivative-answer-value" id="derivative-result-value">—</strong><span class="derivative-answer-detail" id="derivative-result-detail">The result will appear here.</span></div>
+            <div class="integral-help">Numerical five-point estimate. Composite examples: sin(x^2), exp(sin(x)), sqrt(x^2+1).</div>
           </section>
           <section class="calculus-view" id="analysis-view" hidden>
             <div class="panel-title">Analyze f(x) over an interval</div>
@@ -68,16 +78,17 @@
             <div class="integral-row"><span class="symbol">f(x)</span><button class="eval-btn" id="analyze" type="button">Analyze interval</button></div>
             <div class="integral-help">Sampled estimates: range, roots, and local extrema. Results are approximate.</div>
             <div class="analysis-results" id="analysis-results" aria-live="polite"></div>
-            <section class="graph-panel" aria-labelledby="graph-title">
-              <h3 id="graph-title">Function graph</h3>
-              <div class="graph-canvas-wrap"><canvas class="function-graph" id="function-graph" role="img" aria-label="Graph of analyzed functions"></canvas><div class="graph-empty" id="graph-empty">Analyze a function to add it to the graph.</div></div>
-              <div class="graph-legend" id="graph-legend" aria-label="Plotted functions"></div>
-            </section>
           </section>
           </div>
         </dialog>
         <div class="history"><span id="history-label">a little history</span><span class="history-value" id="history-value">Your next answer lives here</span></div>
       </section>
+      <section class="graph-panel" aria-labelledby="graph-title">
+        <h3 id="graph-title">Function graph</h3>
+        <div class="graph-canvas-wrap"><canvas class="function-graph" id="function-graph" role="img" aria-label="Graph of analyzed functions"></canvas><div class="graph-empty" id="graph-empty">Analyze a function to add it to the graph.</div></div>
+        <div class="graph-legend" id="graph-legend" aria-label="Plotted functions"></div>
+      </section>
+      </aside>
     </main>
     <footer class="footer"><span>made for curious minds <b>✳</b></span><span>keyboard friendly <span class="shortcut">0–9</span><span class="shortcut">Enter</span></span></footer>
   </div>
@@ -245,6 +256,182 @@
       const graphLegend = document.getElementById('graph-legend');
       const graphPalette = ['#658ee8', '#e47d8b', '#42a58a', '#a37bd2', '#e5a343', '#4b9bc2', '#cb6dba', '#81934a'];
 
+      function symbolicAntiderivative(source) {
+        const input = source.trim().toLowerCase().replace(/\s+/g, '');
+        if (!input || input.length > 120) throw Error('Enter a function of x.');
+        const additiveTerms = [];
+        let depth = 0, termStart = 0;
+        for (let i = 0; i < input.length; i++) {
+          if (input[i] === '(') depth++;
+          else if (input[i] === ')') depth--;
+          else if (depth === 0 && i > termStart && (input[i] === '+' || input[i] === '-')) {
+            const previous = input[i - 1];
+            const exponentSign = previous === 'e' && /\d/i.test(input[i - 2] || '');
+            if (!exponentSign && !'+-*/^'.includes(previous)) {
+              additiveTerms.push(input.slice(termStart, i));
+              termStart = i;
+            }
+          }
+        }
+        additiveTerms.push(input.slice(termStart));
+        if (additiveTerms.length > 1) {
+          const primitives = additiveTerms.map(term => symbolicAntiderivative(term).replace(/\s*\+\s*C$/, ''));
+          const combined = primitives.reduce((result, primitive, index) => {
+            if (!index) return primitive;
+            if (primitive.startsWith('-')) return `${result} - ${primitive.slice(1)}`;
+            return `${result} + ${primitive}`;
+          }, '');
+          return `${combined} + C`;
+        }
+        const elementary = input.match(/^([+-]?)(?:(\d*\.?\d+)\*?)?(sin|cos|exp|tan)\(x\)$/);
+        if (elementary) {
+          const multiplier = Number(`${elementary[1]}${elementary[2] || 1}`);
+          const kind = elementary[3];
+          const primitive = kind === 'sin' ? 'cos(x)' : kind === 'cos' ? 'sin(x)' : kind === 'tan' ? 'ln(abs(cos(x)))' : 'exp(x)';
+          const coefficient = multiplier * (kind === 'sin' || kind === 'tan' ? -1 : 1);
+          const sign = coefficient < 0 ? '-' : '';
+          const magnitude = Math.abs(coefficient);
+          if (!magnitude) return '0 + C';
+          return `${sign}${magnitude === 1 ? '' : `${pretty(magnitude)}*`}${primitive} + C`;
+        }
+        const squareRoot = input.match(/^([+-]?)(?:(\d*\.?\d+)\*?)?sqrt\(x\)$/);
+        if (squareRoot) {
+          const coefficient = Number(`${squareRoot[1]}${squareRoot[2] || 1}`) * 2;
+          if (!Number.isFinite(coefficient)) throw Error('Use finite numeric coefficients.');
+          if (!coefficient) return '0 + C';
+          return `${coefficient < 0 ? '-' : ''}${Math.abs(coefficient) === 1 ? '' : pretty(Math.abs(coefficient))}x^(3/2)/3 + C`;
+        }
+        const logarithm = input.match(/^([+-]?)(?:(\d*\.?\d+)\*?)?ln\(x\)$/);
+        if (logarithm) {
+          const coefficient = Number(`${logarithm[1]}${logarithm[2] || 1}`);
+          if (!Number.isFinite(coefficient)) throw Error('Use finite numeric coefficients.');
+          if (!coefficient) return '0 + C';
+          const sign = coefficient < 0 ? '-' : '';
+          const magnitude = Math.abs(coefficient);
+          const factor = magnitude === 1 ? '' : `${pretty(magnitude)}*`;
+          return `${sign}${factor}x*ln(abs(x)) ${coefficient < 0 ? '+' : '-'} ${factor}x + C`;
+        }
+        const reciprocal = input.match(/^([+-]?)(?:(\d*\.?\d+)\*?)?\/x$/);
+        if (reciprocal) {
+          const coefficient = Number(`${reciprocal[1]}${reciprocal[2] || 1}`);
+          if (!Number.isFinite(coefficient)) throw Error('Use finite numeric coefficients.');
+          if (!coefficient) return '0 + C';
+          const sign = coefficient < 0 ? '-' : '';
+          const magnitude = Math.abs(coefficient);
+          return `${sign}${magnitude === 1 ? '' : pretty(magnitude)}ln(abs(x)) + C`;
+        }
+        let index = 0;
+        const numberPattern = /^(?:\d*\.?\d+)(?:e[+-]?\d+)?/i;
+        const readExpression = () => {
+          let terms = readProduct();
+          while (input[index] === '+' || input[index] === '-') {
+            const sign = input[index++] === '+' ? 1 : -1;
+            terms = terms.concat(readProduct().map(term => ({ coefficient: sign * term.coefficient, power: term.power, label: term.label })));
+          }
+          return terms;
+        };
+        const readProduct = () => {
+          let terms = readFactor();
+          while (input[index] === '*' || input[index] === '/') {
+            const operator = input[index++];
+            const next = readFactor();
+            if (operator === '/' && next.length === 1 && next[0].power === 0 && next[0].coefficient !== 0) {
+              terms = terms.map(term => ({ ...term, coefficient: term.coefficient / next[0].coefficient, label: `${term.label}/${next[0].label}` }));
+            } else if (operator === '*' && terms.length === 1 && terms[0].power === 0 && next.every(term => term.power >= 0)) {
+              terms = next.map(term => ({ ...term, coefficient: terms[0].coefficient * term.coefficient, label: `${terms[0].label}*${term.label}` }));
+            } else if (operator === '*' && next.length === 1 && next[0].power === 0 && terms.every(term => term.power >= 0)) {
+              terms = terms.map(term => ({ ...term, coefficient: term.coefficient * next[0].coefficient, label: `${term.label}*${next[0].label}` }));
+            } else throw Error('Products of two x-dependent expressions are not supported yet. Expand the expression and try again.');
+          }
+          return terms;
+        };
+        const readFactor = () => {
+          let sign = 1;
+          if (input[index] === '+' || input[index] === '-') { if (input[index++] === '-') sign = -1; }
+          const number = input.slice(index).match(numberPattern);
+          if (number) {
+            index += number[0].length;
+            let coefficient = Number(number[0]);
+            let label = number[0];
+            if (input.slice(index, index + 2) === 'pi' || input.slice(index, index + 1) === 'e') {
+              const constant = input.slice(index, index + 2) === 'pi' ? 'pi' : 'e';
+              index += constant.length;
+              coefficient *= constant === 'pi' ? Math.PI : Math.E;
+              label += `*${constant}`;
+            }
+            if (input[index] === 'x') {
+              index++;
+              let power = 1;
+              if (input[index] === '^') {
+                index++;
+                const exponent = input.slice(index).match(/^\d+/);
+                if (!exponent) throw Error('Polynomial powers must be nonnegative whole numbers.');
+                power = Number(exponent[0]); index += exponent[0].length;
+              }
+              return [{ coefficient: sign * coefficient, power, label: `${sign < 0 ? '-' : ''}${label}*x${power === 1 ? '' : `^${power}`}` }];
+            }
+            return [{ coefficient: sign * coefficient, power: 0, label: `${sign < 0 ? '-' : ''}${label}` }];
+          }
+          if (input[index] === 'x') {
+            index++;
+            let power = 1;
+            if (input[index] === '^') {
+              index++;
+              const exponent = input.slice(index).match(/^\d+/);
+              if (!exponent) throw Error('Polynomial powers must be nonnegative whole numbers.');
+              power = Number(exponent[0]); index += exponent[0].length;
+            }
+            return [{ coefficient: sign, power, label: `${sign < 0 ? '-' : ''}x${power === 1 ? '' : `^${power}`}` }];
+          }
+          if (input[index] === '(') {
+            index++;
+            const inner = readExpression();
+            if (input[index++] !== ')') throw Error('Close the parenthesis.');
+            return inner.map(term => ({ ...term, coefficient: sign * term.coefficient }));
+          }
+          throw Error('Supported terms include polynomials, sin(x), cos(x), tan(x), exp(x), sqrt(x), ln(x), and 1/x; other forms are not supported yet.');
+        };
+        const terms = readExpression();
+        if (index !== input.length) throw Error('Supported terms include polynomials, sin(x), cos(x), tan(x), exp(x), sqrt(x), ln(x), and 1/x; other forms are not supported yet.');
+        const combined = new Map();
+        terms.forEach(term => combined.set(term.power, (combined.get(term.power) || 0) + term.coefficient));
+        const fraction = value => {
+          for (let denominator = 1; denominator <= 10000; denominator++) {
+            const numerator = Math.round(value * denominator);
+            if (Math.abs(value - numerator / denominator) < 1e-11) {
+              const gcd = (a, b) => b ? gcd(b, a % b) : a;
+              const divisor = gcd(Math.abs(numerator), denominator) || 1;
+              return { numerator: numerator / divisor, denominator: denominator / divisor };
+            }
+          }
+          const denominator = 1000000000;
+          const numerator = Math.round(value * denominator);
+          const gcd = (a, b) => b ? gcd(b, a % b) : a;
+          const divisor = gcd(Math.abs(numerator), denominator) || 1;
+          return { numerator: numerator / divisor, denominator: denominator / divisor };
+        };
+        const resultTerms = [];
+        [...combined.entries()].sort((a,b) => b[0]-a[0]).forEach(([power, coefficient]) => {
+          if (!Number.isFinite(coefficient)) throw Error('Use finite numeric coefficients.');
+          if (Math.abs(coefficient) < 1e-12) return;
+          const nextPower = power + 1;
+          const signedFraction = fraction(coefficient);
+          const numerator = Math.abs(signedFraction.numerator);
+          const denominator = signedFraction.denominator * nextPower;
+          const gcd = (a, b) => b ? gcd(b, a % b) : a;
+          const divisor = gcd(numerator, denominator) || 1;
+          const reducedNumerator = numerator / divisor;
+          const reducedDenominator = denominator / divisor;
+          const variable = nextPower === 0 ? '' : `x${nextPower === 1 ? '' : `^${nextPower}`}`;
+          const coefficientText = reducedNumerator === 1 && variable ? '' : String(reducedNumerator);
+          const numeratorText = `${coefficientText}${variable}` || '0';
+          const text = reducedDenominator === 1 ? numeratorText : `${numeratorText}/${reducedDenominator}`;
+          resultTerms.push({ sign: coefficient < 0 ? '-' : '+', text });
+        });
+        const result = resultTerms.map((term, i) => `${i === 0 ? (term.sign === '-' ? '-' : '') : ` ${term.sign} `}${term.text}`).join('') || '0';
+        return `${result} + C`;
+      }
+
       function drawFunctionGraph() {
         if (!graphCanvas) return;
         const bounds = graphCanvas.getBoundingClientRect();
@@ -358,19 +545,50 @@
         } catch (error) { setResult(error.message, true); }
       }
 
-      function differentiate() {
+      function findAntiderivative() {
+        const output = document.getElementById('antiderivative-result');
+        const source = document.getElementById('antiderivative-fn').value;
         try {
-          const fn = compileFunction(document.getElementById('derivative-fn').value);
+          const answer = symbolicAntiderivative(source);
+          output.textContent = `∫(${source}) dx = ${answer}`;
+          showExpression(`Antiderivative of ${source}`);
+          setResult(answer);
+          showHistory('indefinite integral', `${source} dx = ${answer}`);
+          expression = answer;
+          justEvaluated = true;
+        } catch (error) {
+          output.textContent = error.message;
+          setResult(error.message, true);
+        }
+      }
+
+      function differentiate() {
+        const answer = document.getElementById('derivative-result-value');
+        const detail = document.getElementById('derivative-result-detail');
+        const label = document.getElementById('derivative-answer-label');
+        try {
+          const source = document.getElementById('derivative-fn').value;
+          const fn = compileFunction(source);
           const at = Number(document.getElementById('derivative-at').value);
           if (!Number.isFinite(at) || Math.abs(at) > 1e6) throw Error('Enter an x-value between -1,000,000 and 1,000,000.');
           const slope = pretty(derivative(fn, at));
           const value = pretty(fn(at));
+          answer.textContent = slope;
+          answer.classList.remove('error');
+          label.textContent = `Estimated f′(${pretty(at)})`;
+          detail.textContent = `${source} · f(${pretty(at)}) = ${value}`;
           showExpression(`f'(${pretty(at)})`);
           setResult(slope);
           showHistory('estimated derivative', `f(${pretty(at)}) = ${value}; f'(${pretty(at)}) ≈ ${slope}`);
           expression = slope;
           justEvaluated = true;
-        } catch (error) { setResult(error.message, true); }
+        } catch (error) {
+          answer.textContent = error.message;
+          answer.classList.add('error');
+          label.textContent = 'Could not estimate derivative';
+          detail.textContent = 'Check the function and x-value, then try again.';
+          setResult(error.message, true);
+        }
       }
 
       function analyzeFunction() {
@@ -434,6 +652,7 @@ Sample-based estimates; not a symbolic proof.`;
           showHistory('function analysis', `${source}: range ${pretty(minPoint.y)} to ${pretty(maxPoint.y)}`);
           expression = pretty(minPoint.y);
           justEvaluated = true;
+          if (calculusDialog.open) calculusDialog.close();
         } catch (error) { output.textContent = error.message; setResult(error.message, true); }
       }
 
@@ -476,6 +695,7 @@ Sample-based estimates; not a symbolic proof.`;
       }
 
       document.getElementById('integrate').addEventListener('click', integrate);
+      document.getElementById('find-antiderivative').addEventListener('click', findAntiderivative);
       document.getElementById('differentiate').addEventListener('click', differentiate);
       document.getElementById('analyze').addEventListener('click', analyzeFunction);
       function toggleCalculusMenu() {
@@ -515,6 +735,7 @@ Sample-based estimates; not a symbolic proof.`;
         if (calculusDialog.contains(document.activeElement) && event.target.matches('input')) {
           if (event.key === 'Enter') {
             if (!document.getElementById('integral-view').hidden) integrate();
+            else if (!document.getElementById('antiderivative-view').hidden) findAntiderivative();
             else if (!document.getElementById('derivative-view').hidden) differentiate();
             else analyzeFunction();
           }

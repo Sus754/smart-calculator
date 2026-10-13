@@ -1,12 +1,13 @@
 # Bluebell Smart Calculator
 
-A lightweight, responsive calculator for everyday arithmetic and definite integrals.
+A lightweight, responsive calculator for everyday arithmetic, definite integrals, and symbolic indefinite integrals.
 
 ## Features
 
 - Addition, subtraction, multiplication, division, parentheses, and powers.
 - Keyboard input, backspace, clear, and sign toggle.
 - Definite integrals over editable lower and upper bounds.
+- Symbolic indefinite integrals with an explicit `+ C`, including term-by-term sums of polynomials, `sin(x)`, `cos(x)`, `tan(x)`, `exp(x)`, `sqrt(x)`, `ln(x)`, and `1/x`.
 - Numerical derivative estimates at a chosen x-value.
 - Sample-based function analysis over an interval, including an approximate range, roots, and local extrema.
 - A shared function graph that adds each analyzed expression, labels each curve, supports per-curve color selection, and lets you remove curves.
@@ -14,9 +15,9 @@ A lightweight, responsive calculator for everyday arithmetic and definite integr
 - Integral functions: `x`, numbers, `pi`, `e`, `+`, `-`, `*`, `/`, `^`, and `sin`, `cos`, `tan`, `exp`, `sqrt`, `ln`, `log`, and `abs`.
 - A blue responsive design with rounded calculator buttons.
 
-For calculus functions, write multiplication explicitly: use `2*x+1`, not `2x+1`. Trigonometric functions use radians. Integrals, derivatives, and interval analysis are numerical estimates rather than symbolic proofs.
+For calculator, derivative, and analysis inputs, write multiplication explicitly: use `2*x+1`, not `2x+1`. Indefinite integration also accepts standard coefficient notation such as `3x`. Trigonometric functions use radians. Definite integrals and derivatives are numerical estimates; function analysis is sample-based. Indefinite integrals split sums into supported terms and return symbolic antiderivatives for polynomials, `sin(x)`, `cos(x)`, `tan(x)`, `exp(x)`, `sqrt(x)`, `ln(x)`, and `1/x`; polynomial coefficients are shown as fractions where possible, and unsupported terms are reported clearly.
 
-Open **Calculus tools** in the calculator header (or press the `f(x)` key), then choose an integral, derivative, or function analysis tool to open it in a separate dialog window. The function analysis window includes a shared graph: analyze different function expressions to compare multiple named curves, choose each curve’s color in the legend, and remove curves as needed. Close the window with its close button, by clicking the backdrop, or by pressing Escape.
+Open **Calculus tools** in the calculator header (or press the `f(x)` key), then choose an integral, derivative, or function analysis tool to open it in a separate dialog window. The page sidebar shows a shared function graph: analyze different expressions to compare named curves, choose each curve's color in the legend, and remove curves as needed. After analysis, the dialog closes so the updated graph is visible. Choose **Indefinite integral** in Calculus tools to find symbolic antiderivatives. It integrates supported sums term by term, for example `sin(x)+3x`, and includes the integration constant `+ C`. Close the window with its close button, by clicking the backdrop, or by pressing Escape.
 
 ## Run locally
 
