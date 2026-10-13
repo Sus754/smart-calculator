@@ -17,7 +17,7 @@ A lightweight, responsive calculator for everyday arithmetic, definite integrals
 
 For calculator, derivative, and analysis inputs, write multiplication explicitly: use `2*x+1`, not `2x+1`. Indefinite integration also accepts standard coefficient notation such as `3x`. Trigonometric functions use radians. Definite integrals and derivatives are numerical estimates; function analysis is sample-based. Indefinite integrals split sums into supported terms and return symbolic antiderivatives for polynomials, `sin(x)`, `cos(x)`, `tan(x)`, `exp(x)`, `sqrt(x)`, `ln(x)`, and `1/x`; polynomial coefficients are shown as fractions where possible, and unsupported terms are reported clearly.
 
-Open **Calculus tools** in the calculator header (or press the `f(x)` key) and choose a tool to show its controls inline below the keypad. No new page or pop-up opens. The function graph stays in the sidebar and updates as you analyze functions; use the legend to compare named curves, change their colors, or remove them. Indefinite integrals process supported sums term by term, for example `sin(x)+3x`, and include the integration constant `+ C`.
+Open **Calculus tools** in the calculator header (or press the `f(x)` key) and choose a tool to show its controls inline below the keypad. No new page or pop-up opens. On desktop, the calculator is on the left and the graph sidebar is on the right; they stack on smaller screens. The graph updates as you analyze functions; use its legend to compare named curves, change colors, or remove them. Indefinite integrals process supported sums term by term, for example `sin(x)+3x`, and include the integration constant `+ C`.
 
 ## Run locally
 
